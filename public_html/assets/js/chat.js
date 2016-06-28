@@ -123,7 +123,7 @@
             this.$users.append($list);
         }
     }
-
+    //Ao carregar a página o método Init será iniciado.
     $(document).ready(function() {
         Chat.init();
     });
